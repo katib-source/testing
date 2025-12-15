@@ -30,8 +30,8 @@ DEFAULT_TIMEOUT = 8
 DEFAULT_MAX_RETRIES = 3
 DEFAULT_RETRY_DELAY = 5
 
-# Apogée sometimes returns 401 when service is up but not logged in
-DEFAULT_OK_CODES = "200,302,303,401"
+# Apogée sometimes returns 401/404 when service is up but not logged in
+DEFAULT_OK_CODES = "200,302,303,401,404"
 
 DOWN_KEYWORDS = [
     "maintenance",
